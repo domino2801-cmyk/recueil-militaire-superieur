@@ -1,0 +1,69 @@
+{
+  "_meta": {
+    "schema": "rms-library/1",
+    "avertissement": "Catalogue vide à alimenter. 'url' peut pointer vers un PDF officiel ou un fichier ajouté dans /docs/. 'corps' accepte du Markdown pour un texte intégré consultable hors-ligne. Ne saisir que des textes dont la diffusion est autorisée."
+  },
+  "types": [
+    { "id": "reglementaire", "label": "Texte réglementaire" },
+    { "id": "annale", "label": "Annale" },
+    { "id": "rapport", "label": "Rapport de jury" },
+    { "id": "fiche", "label": "Fiche méthode" }
+  ],
+  "documents": [
+    {
+      "id": "doc-npso-954",
+      "exams": ["bm2", "bm4"],
+      "type": "reglementaire",
+      "titre": "Instruction N° 954 ARM RH-AT relative au NPSO",
+      "emetteur": "Armée de Terre",
+      "reference": "N° 954 ARM RH-AT",
+      "date": null,
+      "url": null,
+      "corps": "> Emplacement réservé : coller ici le texte officiel (Markdown) ou renseigner `url`.\n\n**À RENSEIGNER**"
+    },
+    {
+      "id": "doc-drhat-notice-emia",
+      "exams": ["emia"],
+      "type": "reglementaire",
+      "titre": "Notice DRHAT – EMIA (session en cours)",
+      "emetteur": "DRHAT",
+      "reference": "À RENSEIGNER",
+      "date": null,
+      "url": null,
+      "corps": "> Emplacement réservé : texte officiel de la notice.\n\n**À RENSEIGNER**"
+    },
+    {
+      "id": "doc-drhat-notice-ods",
+      "exams": ["ods"],
+      "type": "reglementaire",
+      "titre": "Notice DRHAT – ODS (session en cours)",
+      "emetteur": "DRHAT",
+      "reference": "À RENSEIGNER",
+      "date": null,
+      "url": null,
+      "corps": "> Emplacement réservé : texte officiel de la notice et fiches d'options.\n\n**À RENSEIGNER**"
+    },
+    {
+      "id": "doc-ensoa-directive-bm",
+      "exams": ["bm2", "bm4"],
+      "type": "reglementaire",
+      "titre": "Directive ENSOA – BM2 / BM4",
+      "emetteur": "ENSOA",
+      "reference": "À RENSEIGNER",
+      "date": null,
+      "url": null,
+      "corps": "> Emplacement réservé : directive en vigueur.\n\n**À RENSEIGNER**"
+    },
+    {
+      "id": "doc-methode-3c",
+      "exams": ["emia", "ods"],
+      "type": "fiche",
+      "titre": "Note de synthèse – méthode 3C",
+      "emetteur": "DRHAT",
+      "reference": "À RENSEIGNER",
+      "date": null,
+      "url": null,
+      "corps": "> Emplacement réservé : description officielle de la méthode 3C et exemples.\n\n**À RENSEIGNER**"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "_meta": {
+    "schema": "rms-exams/1",
+    "avertissement": "Squelette de structure. Chaque champ null ou marqué « À RENSEIGNER » doit être complété depuis le texte officiel en vigueur (notice DRHAT, directive ENSOA, Instruction N° 954 ARM RH-AT). Passer verified à true une fois la vérification faite."
+  },
+  "exams": [
+    {
+      "id": "emia",
+      "nom": "EMIA",
+      "titre": "École Militaire Interarmes",
+      "autorite": "DRHAT",
+      "sources": ["Notice DRHAT EMIA", "Directive / note de synthèse (méthode 3C)", "Fiches d'options DRHAT"],
+      "resume": "Concours d'accès à la formation d'officier de l'armée de Terre. Contenu à compléter depuis la notice officielle de la session.",
+      "etapes": [
+        {
+          "id": "inscription",
+          "titre": "Inscriptions & prérequis",
+          "verified": false,
+          "corps": "## Prérequis\n- Conditions d'âge, de grade, de diplôme, d'aptitude : **À RENSEIGNER**\n- Dossier à constituer : **À RENSEIGNER**\n\n## Calendrier\nLes dates officielles se saisissent dans l'onglet *Progression* (elles pilotent le planning de révision).",
+          "epreuves": []
+        },
+        {
+          "id": "admissibilite",
+          "titre": "Admissibilité (écrits)",
+          "verified": false,
+          "corps": "Épreuves écrites : synthèse, sciences, tactique. Détail des modalités à reporter depuis la notice.",
+          "epreuves": [
+            { "nom": "Note de synthèse (méthode 3C)", "duree": null, "coef": null, "notes": "À RENSEIGNER" },
+            { "nom": "Sciences", "duree": null, "coef": null, "notes": "À RENSEIGNER" },
+            { "nom": "Tactique", "duree": null, "coef": null, "notes": "À RENSEIGNER" }
+          ]
+        },
+        {
+          "id": "admission",
+          "titre": "Admission (oraux, anglais, entretiens, sport)",
+          "verified": false,
+          "corps": "Oraux de culture militaire, anglais, entretiens, épreuves sportives (dont Luc Léger et piscine). Barèmes dans l'onglet *Entraînement > Sport*.",
+          "epreuves": [
+            { "nom": "Culture militaire (oral)", "duree": null, "coef": null, "notes": "À RENSEIGNER" },
+            { "nom": "Anglais", "duree": null, "coef": null, "notes": "À RENSEIGNER" },
+            { "nom": "Entretien", "duree": null, "coef": null, "notes": "À RENSEIGNER" },
+            { "nom": "Épreuves sportives (Luc Léger, piscine…)", "duree": null, "coef": null, "notes": "À RENSEIGNER" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ods",
+      "nom": "ODS",
+      "titre": "Officiers des Domaines de Spécialités",
+      "autorite": "DRHAT",
+      "sources": ["Notice DRHAT ODS", "Fiches d'options DRHAT"],
+      "resume": "Accès au corps d'officiers par domaine de spécialité. Contenu à compléter depuis la notice officielle de la session.",
+      "etapes": [
+        {
+          "id": "inscription",
+          "titre": "Inscriptions & prérequis",
+          "verified": false,
+          "corps": "- Conditions et dossier : **À RENSEIGNER**\n- Choix de l'option / du domaine : **À RENSEIGNER** (fiches d'options DRHAT)",
+          "epreuves": []
+        },
+        {
+          "id": "admissibilite",
+          "titre": "Admissibilité (écrits)",
+          "verified": false,
+          "corps": "Épreuves écrites à reporter depuis la notice.",
+          "epreuves": [
+            { "nom": "Note de synthèse (méthode 3C)", "duree": null, "coef": null, "notes": "À RENSEIGNER" },
+            { "nom": "Épreuve liée à l'option", "duree": null, "coef": null, "notes": "À RENSEIGNER" }
+          ]
+        },
+        {
+          "id": "admission",
+          "titre": "Admission (oraux, anglais, entretiens, sport)",
+          "verified": false,
+          "corps": "Oraux, anglais, entretien, épreuves sportives : à reporter depuis la notice.",
+          "epreuves": [
+            { "nom": "Entretien / culture militaire", "duree": null, "coef": null, "notes": "À RENSEIGNER" },
+            { "nom": "Anglais", "duree": null, "coef": null, "notes": "À RENSEIGNER" },
+            { "nom": "Épreuves sportives", "duree": null, "coef": null, "notes": "À RENSEIGNER" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bm2",
+      "nom": "BM2",
+      "titre": "Brevet Militaire de 2e niveau (ex-BSTAT)",
+      "autorite": "ENSOA",
+      "sources": ["Directive ENSOA", "Instruction N° 954 ARM RH-AT (NPSO)"],
+      "resume": "Brevet du parcours sous-officier (NPSO). Contenu à compléter depuis la directive ENSOA et l'Instruction N° 954.",
+      "etapes": [
+        {
+          "id": "inscription",
+          "titre": "Inscriptions & prérequis",
+          "verified": false,
+          "corps": "- Conditions d'accès (ancienneté, grade, aptitudes) : **À RENSEIGNER**\n- Modalités d'inscription : **À RENSEIGNER**",
+          "epreuves": []
+        },
+        {
+          "id": "admissibilite",
+          "titre": "Épreuves écrites / théoriques",
+          "verified": false,
+          "corps": "À reporter depuis la directive ENSOA.",
+          "epreuves": [
+            { "nom": "Culture militaire / management", "duree": null, "coef": null, "notes": "À RENSEIGNER" }
+          ]
+        },
+        {
+          "id": "admission",
+          "titre": "Épreuves orales, pratiques et sportives",
+          "verified": false,
+          "corps": "À reporter depuis la directive ENSOA.",
+          "epreuves": [
+            { "nom": "Épreuves sportives", "duree": null, "coef": null, "notes": "À RENSEIGNER" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bm4",
+      "nom": "BM4",
+      "titre": "Brevet Militaire de 4e niveau (accès au grade de Major)",
+      "autorite": "ENSOA",
+      "sources": ["Directive ENSOA", "Instruction N° 954 ARM RH-AT (NPSO)"],
+      "resume": "Brevet menant au grade de Major dans le parcours NPSO. Contenu à compléter depuis la directive ENSOA et l'Instruction N° 954.",
+      "etapes": [
+        {
+          "id": "inscription",
+          "titre": "Inscriptions & prérequis",
+          "verified": false,
+          "corps": "- Conditions d'accès : **À RENSEIGNER**\n- Modalités d'inscription : **À RENSEIGNER**",
+          "epreuves": []
+        },
+        {
+          "id": "admissibilite",
+          "titre": "Épreuves écrites / théoriques",
+          "verified": false,
+          "corps": "À reporter depuis la directive ENSOA.",
+          "epreuves": [
+            { "nom": "Culture militaire / management opérationnel", "duree": null, "coef": null, "notes": "À RENSEIGNER" }
+          ]
+        },
+        {
+          "id": "admission",
+          "titre": "Épreuves orales, pratiques et sportives",
+          "verified": false,
+          "corps": "À reporter depuis la directive ENSOA.",
+          "epreuves": [
+            { "nom": "Épreuves sportives", "duree": null, "coef": null, "notes": "À RENSEIGNER" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Recueil Militaire Supérieur</title>
+  <meta name="description" content="Préparation EMIA, ODS, BM2 et BM4 : fiches, bibliothèque, entraînement, progression.">
+  <meta name="theme-color" content="#14213d">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="#/" aria-label="Accueil">
+      <span class="brand-mark" aria-hidden="true">RMS</span>
+      <span class="brand-text">Recueil Militaire Supérieur</span>
+    </a>
+    <span id="net" class="net" role="status"></span>
+  </header>
+
+  <nav class="tabs" aria-label="Navigation principale">
+    <a href="#/" data-nav="home">Accueil</a>
+    <a href="#/epreuves" data-nav="epreuves">Épreuves</a>
+    <a href="#/bibliotheque" data-nav="bibliotheque">Bibliothèque</a>
+    <a href="#/entrainement" data-nav="entrainement">Entraînement</a>
+    <a href="#/progression" data-nav="progression">Progression</a>
+  </nav>
+
+  <nav id="crumbs" class="crumbs" aria-label="Fil d'Ariane"></nav>
+  <main id="view" tabindex="-1"><p class="muted">Chargement…</p></main>
+
+  <footer class="foot">
+    <p>Contenu pédagogique non officiel. Se référer aux textes en vigueur (DRHAT, ENSOA, Instruction N° 954 ARM RH-AT).</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
