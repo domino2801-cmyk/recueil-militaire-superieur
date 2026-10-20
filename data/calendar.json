@@ -1,0 +1,12 @@
+{
+  "_meta": {
+    "schema": "rms-calendar/1",
+    "avertissement": "Dates à renseigner depuis les arrêtés / notes officielles. Elles peuvent aussi être saisies dans l'application (onglet Progression) ; la saisie locale prime sur ce fichier."
+  },
+  "exams": {
+    "emia": { "ecrits": null, "oraux": null, "source": "Arrêté / note DRHAT – À RENSEIGNER" },
+    "ods": { "ecrits": null, "oraux": null, "source": "Arrêté / note DRHAT – À RENSEIGNER" },
+    "bm2": { "ecrits": null, "oraux": null, "source": "Directive ENSOA – À RENSEIGNER" },
+    "bm4": { "ecrits": null, "oraux": null, "source": "Directive ENSOA – À RENSEIGNER" }
+  }
+}

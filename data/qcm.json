@@ -1,0 +1,97 @@
+{
+  "_meta": {
+    "schema": "rms-qcm/1",
+    "avertissement": "Questions d'amorçage de culture générale militaire, à remplacer ou enrichir par des questions issues des référentiels officiels. Champs : exams (liste d'identifiants), subject (culture | management | anglais), answer (index 0-based dans choices)."
+  },
+  "subjects": [
+    { "id": "culture", "label": "Culture militaire" },
+    { "id": "management", "label": "Management opérationnel" },
+    { "id": "anglais", "label": "Anglais militaire" }
+  ],
+  "questions": [
+    {
+      "id": "c001", "subject": "culture", "exams": ["emia", "ods", "bm2", "bm4"],
+      "q": "Que signifie l'acronyme NPSO ?",
+      "choices": ["Nouveau Parcours des Sous-Officiers", "Notation Périodique des Sous-Officiers", "Niveau Principal de Sélection des Officiers", "Nomenclature des Postes de Sous-Officiers"],
+      "answer": 0,
+      "explain": "NPSO : Nouveau Parcours des Sous-officiers (cadre de l'Instruction N° 954 ARM RH-AT)."
+    },
+    {
+      "id": "c002", "subject": "culture", "exams": ["emia", "ods", "bm2", "bm4"],
+      "q": "Que signifie l'acronyme OTAN ?",
+      "choices": ["Organisation du Traité de l'Atlantique Nord", "Office Technique des Armées Navales", "Organisation des Troupes Alliées Nationales", "Ordre du Traité de l'Armement Nucléaire"],
+      "answer": 0,
+      "explain": "OTAN : Organisation du Traité de l'Atlantique Nord."
+    },
+    {
+      "id": "c003", "subject": "culture", "exams": ["emia", "ods", "bm2", "bm4"],
+      "q": "Quelle est la devise de la Légion étrangère ?",
+      "choices": ["Honneur et Patrie", "Legio Patria Nostra", "Être et durer", "Pour que la France vive"],
+      "answer": 1,
+      "explain": "« Legio Patria Nostra » : la Légion est notre patrie."
+    },
+    {
+      "id": "c004", "subject": "culture", "exams": ["emia", "ods", "bm2", "bm4"],
+      "q": "En quelle année a été signé l'armistice mettant fin à la Première Guerre mondiale sur le front occidental ?",
+      "choices": ["1916", "1917", "1918", "1919"],
+      "answer": 2,
+      "explain": "Armistice du 11 novembre 1918."
+    },
+    {
+      "id": "m001", "subject": "management", "exams": ["emia", "ods", "bm2", "bm4"],
+      "q": "Le commandement par intention consiste principalement à :",
+      "choices": ["Détailler chaque action à exécuter", "Donner le but à atteindre en laissant de la liberté d'exécution aux subordonnés", "Laisser les subordonnés définir seuls la mission", "Supprimer les comptes rendus"],
+      "answer": 1,
+      "explain": "Le chef exprime l'effet à obtenir et son intention ; les subordonnés choisissent les moyens dans ce cadre."
+    },
+    {
+      "id": "m002", "subject": "management", "exams": ["emia", "ods", "bm2", "bm4"],
+      "q": "Le principe de subsidiarité en management signifie :",
+      "choices": ["Toute décision remonte au plus haut niveau", "La décision est prise au niveau le plus bas apte à la prendre", "Les décisions sont prises par vote", "Le chef délègue sa responsabilité"],
+      "answer": 1,
+      "explain": "On décide au niveau le plus proche de l'action qui dispose des éléments pour le faire ; la responsabilité du chef demeure."
+    },
+    {
+      "id": "m003", "subject": "management", "exams": ["bm2", "bm4"],
+      "q": "Un chef qui délègue une tâche reste :",
+      "choices": ["Dégagé de toute responsabilité", "Responsable du résultat", "Responsable uniquement des moyens", "Responsable uniquement en cas de succès"],
+      "answer": 1,
+      "explain": "On délègue l'exécution, pas la responsabilité."
+    },
+    {
+      "id": "e001", "subject": "anglais", "exams": ["emia", "ods", "bm2", "bm4"],
+      "q": "Dans l'alphabet phonétique OTAN, quel mot désigne la lettre K ?",
+      "choices": ["Kilo", "King", "Kappa", "Karma"],
+      "answer": 0,
+      "explain": "K = Kilo."
+    },
+    {
+      "id": "e002", "subject": "anglais", "exams": ["emia", "ods", "bm2", "bm4"],
+      "q": "« Rules of engagement » se traduit par :",
+      "choices": ["Règles de comportement civil", "Règles d'engagement", "Règles de recrutement", "Règles d'entraînement"],
+      "answer": 1,
+      "explain": "ROE : règles d'engagement."
+    },
+    {
+      "id": "e003", "subject": "anglais", "exams": ["emia", "ods", "bm2", "bm4"],
+      "q": "Que signifie « ETA » dans un message opérationnel ?",
+      "choices": ["Estimated Time of Arrival", "End of Training Activity", "Enemy Threat Assessment", "Extra Tactical Asset"],
+      "answer": 0,
+      "explain": "ETA : heure d'arrivée estimée."
+    },
+    {
+      "id": "e004", "subject": "anglais", "exams": ["emia", "ods", "bm2", "bm4"],
+      "q": "« Chain of command » désigne :",
+      "choices": ["La chaîne logistique", "La chaîne de commandement", "La chaîne de transmission radio", "La chaîne de montage"],
+      "answer": 1,
+      "explain": "Chain of command : chaîne de commandement."
+    },
+    {
+      "id": "e005", "subject": "anglais", "exams": ["emia", "ods", "bm2", "bm4"],
+      "q": "Quelle phrase est une demande de répétition en procédure radio anglaise ?",
+      "choices": ["Roger", "Say again", "Wilco", "Out"],
+      "answer": 1,
+      "explain": "« Say again » : répétez. « Roger » : bien reçu. « Wilco » : sera exécuté. « Out » : fin de transmission."
+    }
+  ]
+}

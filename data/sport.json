@@ -1,0 +1,45 @@
+{
+  "_meta": {
+    "schema": "rms-sport/1",
+    "avertissement": "BARÈMES D'EXEMPLE NON OFFICIELS. Remplacer les seuils par ceux de la notice DRHAT / directive ENSOA en vigueur. direction 'higher' : plus la valeur est haute, mieux c'est (paliers, mètres). direction 'lower' : plus la valeur est basse, mieux c'est (temps en secondes). Chaque grille : liste de {seuil, points}, du meilleur au moins bon ; 'default' sert si aucune grille propre à l'examen n'existe."
+  },
+  "official": false,
+  "tests": [
+    {
+      "id": "luc-leger",
+      "nom": "Luc Léger (course navette)",
+      "unite": "palier",
+      "direction": "higher",
+      "pas": 0.5,
+      "grilles": {
+        "default": [
+          { "seuil": 12, "points": 20 },
+          { "seuil": 11, "points": 17 },
+          { "seuil": 10, "points": 14 },
+          { "seuil": 9, "points": 11 },
+          { "seuil": 8, "points": 8 },
+          { "seuil": 7, "points": 5 },
+          { "seuil": 0, "points": 0 }
+        ]
+      }
+    },
+    {
+      "id": "piscine",
+      "nom": "Natation (piscine)",
+      "unite": "secondes",
+      "direction": "lower",
+      "pas": 1,
+      "grilles": {
+        "default": [
+          { "seuil": 40, "points": 20 },
+          { "seuil": 50, "points": 17 },
+          { "seuil": 60, "points": 14 },
+          { "seuil": 70, "points": 11 },
+          { "seuil": 85, "points": 8 },
+          { "seuil": 100, "points": 5 },
+          { "seuil": 99999, "points": 0 }
+        ]
+      }
+    }
+  ]
+}
